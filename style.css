@@ -237,6 +237,12 @@ header .container-nav-mobile #menu a .pink-text {
           transform: translateX(-50%);
   background-color: #331726;
 }
+
+#section-projects .fab, #section-projects .fas {
+  margin: 0 0.5em;
+  font-size: 1.25em;
+}
+
 #section-projects .container-flex {
   margin: 3em 0 5em 0;
   display: -webkit-box;
