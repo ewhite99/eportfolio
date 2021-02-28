@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8021a6c096.js" crossorigin="anonymous"></script>
+    <title>Erione White</title>
+</head>
+<body>
+    <header>
+        <div class="container-nav-desktop">
+            <ul>
+                <li><a href="#section-about"><span class="pink-text">I.</span>about</a></li>
+                <li><a href="#section-projects"><span class="pink-text">II.</span>projects</a></li>
+                <li><a href="#section-contact"><span class="pink-text">III.</span>contact</a></li>
+            </ul>
+        </div>
+        <div class="container-nav-mobile">
+            <i id="menu-icon" class="fas fa-bars"></i>
+            <div id="menu" class="visible-menu">
+                <i id="close-icon" class="fas fa-times"></i>
+                <a class="nav-link" href="#section-about"><span class="pink-text">I.</span>about</a>
+                <a class="nav-link" href="#section-projects"><span class="pink-text">II.</span>projects</a>
+                <a class="nav-link" href="#section-contact"><span class="pink-text">III.</span>contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="section-intro">
+        <h1>Hello, I am <span class="pink-text large-text">Erione White</span></h1>
+        <h2>Front-end Developer</h2>
+        <p>based in Frisco, TX</p>
+        <a href="#section-projects" class="pink-link">my work</a>
+    </section>
+
+    <section id="section-about">
+        <h2 class="pink-heading">About Me</h2>
+        <div class="container-flex">
+            <div class="container-about-img"></div>
+            <p>My name is Erione White and I am a Front End Developer. I am passionate about creating responsive websites that anyone can access, no matter the device. </p>
+        </div>
+        <div class="container-about-skills">
+            <h3>Technologies I work with:</h3>
+            <table>
+                <tr>
+                    <td>HTML</td>
+                    <td>SASS</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>React</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>JQuery</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="section-projects">
+       <h2 class="pink-heading">My Projects</h2>
+       <div class="container-flex">
+            <div class="container-img officelite"></div>
+            <div class="container-text">
+                <h4>Officelite - 
+
+                    <a href="https://github.com/ewhite99/officelite-web" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://eofficelitewebsite.netlify.app" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    
+                </h4>
+                <p>Officelite is a multi-page coming soon website, with a countdown made with JavaScript, and form using built-in form validation.</p>
+                <div class="container-tags">
+                    <span class="text-tag">HTML</span>
+                    <span class="text-tag">SASS</span>
+                    <span class="text-tag">CSS</span>
+                    <span class="text-tag">JavaScript</span>
+
+                </div>
+            </div>
+       </div>
+       <div class="container-flex">
+            <div class="container-img pricing"></div>
+            <div class="container-text">
+                <h4> Pricing Component - 
+                    <a href="https://github.com/ewhite99/pricing-component" target="_blank" >
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://webpricingcomponent.netlify.app" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </h4>
+                <p>This pricing component utilizes a toggle feature, programmed with JavaScript, that allows users to compare annual and monthly pricing options.</p>
+                <div class="container-tags">
+                    <span class="text-tag">HTML</span>
+                    <span class="text-tag">CSS</span>
+                    <span class="text-tag">JavaScript</span>
+
+                </div>
+            </div>
+       </div>
+       <div class="container-flex">
+            <div class="container-img rhyme"></div>
+            <div class="container-text">
+                <h4>Rhyming Dictionary -
+                    <a href="https://github.com/ewhite99/rhyming-dictionary" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://rhyming-dictionary.netlify.app" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </h4>
+                <p>Rhyming Dictionary is an app that I created with React. The user enters a word in, and the app returns 15 words that rhyme with it.</p>
+                <div class="container-tags">
+                    <span class="text-tag">HTML</span>
+                    <span class="text-tag">CSS</span>
+                    <span class="text-tag">React</span>
+                </div>
+            </div>
+       </div>
+       
+       <div class="container-flex">
+            <div class="container-img maker"></div>
+            <div class="container-text">
+                <h4>Maker - 
+                    <a href="https://github.com/ewhite99/maker" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://makerwebsite.netlify.app" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </h4>
+                <p>Maker is a freelancing services website. The email input towards the bottom utilizes custom form validation to verify the email is correct.</p>
+                <div class="container-tags">
+                    <span class="text-tag">HTML</span>
+                    <span class="text-tag">CSS</span>
+                    <span class="text-tag">JavaScript</span>
+                </div>
+            </div>
+       </div>
+    </section>
+    <section id="section-contact">
+        <h2 class="pink-heading">Contact Me</h2>
+        <form name="contact-form" onsubmit="return validateForm()" netlify>
+
+            <input type="text" name="name" placeholder="Name" class="input-name">
+
+            <input type="email" name="email" placeholder="Email"
+            class="input-email">
+
+            <textarea name="message" id="form-message" cols="50" rows="20" placeholder="Message"
+            class="input-message"></textarea>
+
+            <button class="outline-button" type="submit">Submit</button>
+
+        </form>
+    </section>
+    <footer>
+
+        <a href="#section-intro"><p>Back to the top <i class="fas fa-arrow-up"></i></p></a>
+
+    </footer>
+    <script src="./script.js"></script>
+</html>
