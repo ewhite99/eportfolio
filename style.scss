@@ -175,11 +175,8 @@ header{
             width: 150px;
             border: 2px solid $emText;
             border-radius: 50%;
-            background-color: $normalText;         
-            background-size: 200%;
-            background-repeat: no-repeat;
-            background-position: center;
-            box-shadow:inset 0 0 0 2000px #58123d5b;
+            background-color: $normalText;             
+            background-size: 200%;            
         }
     }
     .container-about-skills{
